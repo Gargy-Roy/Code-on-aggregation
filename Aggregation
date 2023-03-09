@@ -12,7 +12,7 @@
 
 
 
-public class InsuranceInfo {
+2.public class InsuranceInfo {
     String policyName;
     int policyId;
     public InsuranceInfo(String policyName, int policyId)
@@ -22,7 +22,7 @@ public class InsuranceInfo {
     }
 }
 
-public class Employeee {
+3.public class Employeee {
     String name;
     AddressInfo addressInfo;
     InsuranceInfo insuranceInfo;
@@ -58,7 +58,7 @@ public class Main {
 
 
 
-2.public class Engine {
+4.public class Engine {
    public double capacity;
    public Engine(double capacity)
    {
@@ -68,7 +68,7 @@ public class Main {
 
 
 
-public class DashBoard {
+5.public class DashBoard {
    public double size;
    public DashBoard(double size)
    {
@@ -76,7 +76,7 @@ public class DashBoard {
    }
 
 
-public class Car1 {
+6.public class Car1 {
    public String model;
    public String company;
 
@@ -118,7 +118,7 @@ public class Volvo extends Car1{
   }
 
 
-public class Main {
+7.public class Main {
    public static void main(String[] args) {
        Engine eng = new Engine(34.7);
        DashBoard db= new DashBoard(5.0);
@@ -135,7 +135,7 @@ public class Main {
 
 
 
-3.class Operation{
+8.class Operation{
     int square(int n){
         return n*n;
     }
@@ -162,7 +162,7 @@ class Circle{
 
 
 
-4.public class Address {
+9.public class Address {
 
 String city,state,country;
 
